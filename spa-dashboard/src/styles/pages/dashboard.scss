@@ -1,0 +1,30 @@
+.main-dash {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	background-color: #eee6e3;
+	opacity: 0.8;
+	background-color:
+		radial-gradient(#dd5752 0.45px, transparent 0.45px),
+		radial-gradient(#dd5752 0.45px, #eee6e3 0.45px);
+	background-size: 18px;
+	background-position:
+		0 0,
+		9px 9px;
+}
+
+.dash-cont {
+	padding: 20px 0 80px 30px;
+}
+
+.dash-header {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	padding: 6px 20px 6px 0;
+}
+
+.dash-header h1 {
+	margin: 0;
+	font-size: 28px;
+}

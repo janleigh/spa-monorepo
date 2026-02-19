@@ -1,0 +1,39 @@
+.quant-figures {
+	margin-left: auto;
+}
+
+.figs {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 16px;
+}
+
+.fig {
+	min-width: 120px;
+	padding: 16px;
+	font-weight: 900;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	border-radius: 14px;
+	background: #efe7e4;
+	box-shadow: 0 6px 12px rgba(7, 8, 26, 0.18);
+}
+
+.quant-value {
+	color: #dd5752;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.quant-label {
+	color: #0b0d3f;
+	font-size: 13px;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,23 @@
+{
+	"name": "spa-server",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@biomejs/biome": "2.3.15",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"better-sqlite3": "^12.6.2",
+		"cors": "^2.8.6",
+		"dotenv": "^17.2.3",
+		"express": "^5.2.1",
+		"jsonwebtoken": "^9.0.3",
+		"socket.io": "^4.8.3",
+		"uuid": "^13.0.0"
+	}
+}
