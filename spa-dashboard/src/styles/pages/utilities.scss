@@ -1,0 +1,18 @@
+.util-cont {
+	flex: 1;
+	min-width: 0;
+	overflow-x: auto;
+	padding: 20px 30px 80px 30px;
+}
+
+.util-header {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	padding: 6px 20px 6px 0;
+}
+
+.util-header h1 {
+	margin: 0;
+	font-size: 28px;
+}

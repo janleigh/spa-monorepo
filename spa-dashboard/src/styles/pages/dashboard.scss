@@ -1,19 +1,22 @@
-.main-dash {
+.main-dash, .main-util {
 	height: 100vh;
 	display: flex;
 	flex-direction: row;
-	background-color: #eee6e3;
 	opacity: 0.8;
-	background-color:
+	background-color: #eee6e3;
+	background-image:
 		radial-gradient(#dd5752 0.45px, transparent 0.45px),
 		radial-gradient(#dd5752 0.45px, #eee6e3 0.45px);
-	background-size: 18px;
+	background-size: 18px 18px;
 	background-position:
 		0 0,
 		9px 9px;
 }
 
 .dash-cont {
+	flex: 1;
+	min-width: 0;
+	overflow-x: auto;
 	padding: 20px 0 80px 30px;
 }
 
